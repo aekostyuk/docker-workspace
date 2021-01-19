@@ -1,0 +1,21 @@
+.env
+/mongo/db/**
+!/mongo/db/.gitkeep
+/mongo/dump/**
+/mysql-8/data/**
+!/mysql-8/data/.gitkeep
+/mysql-8/dump/**
+!/mysql-8/dump/.gitkeep
+/.ssh/**
+!/.ssh/.gitkeep
+/nginx/logs/**
+!/nginx/logs/.gitkeep
+
+# Файлы web-проектов
+/projects/**
+!/projects/.gitkeep
+
+
+# Другие файлы
+.idea/
+.DS_Store
